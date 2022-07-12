@@ -1,0 +1,14 @@
+{
+  "name": "netx",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"dotnet watch run\" \"cd my-app && npm run dev\""
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "concurrently": "^7.2.2"
+  }
+}
